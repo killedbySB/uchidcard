@@ -1,0 +1,95 @@
+/* STYLING FOR PATIENT HELPER INITATIVE */
+body{
+    background-color: black;
+}
+.patienthelper{
+    align-items: center;
+    text-align: center;
+    width: 1100px;
+    height: 683.56px;
+    top: 4498px;
+    left: -8620px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: lightblue;
+    margin-top: 12rem;
+    margin-left: 27rem;
+}
+ .images2{
+    border-bottom: 1px solid black;
+    width: 95%;
+    margin-left: 1.3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 2rem;
+} 
+.overlay-blur img{
+    width: 500px;
+    width: 500px;
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: -17rem;
+}
+.greenuchlogo img{
+    margin-top: 2rem;
+
+}
+.patienthelper-info h1{
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 22rem;
+    color: red;
+}
+.patienthelper-info h2{
+    font-size: 2.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 22rem;
+    margin-top: -2.6rem;
+    
+
+}
+.patienthelper-info p{
+    font-size: 2.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 25rem;
+    margin-top: 5rem;
+
+}
+
+ .patienthelper-info img{
+    margin-top: 12rem;
+    margin-left: -27rem;
+
+ }
+.patienthelper-info img{
+    margin-top: -5rem;
+    margin-left: -20rem;
+    position: absolute;
+}
+.patienthelper-info .patienthelper-image img{
+    margin-left: 14rem;
+    margin-top: -16.3rem;
+    border: 5px solid black;
+    border-radius: 18px;
+    position: absolute;
+
+}
+.patienthelper-info .patienthelper-image h3{
+    margin-left: 54.5rem;
+    margin-top: 7rem;
+    font-size: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+
+
+/* MOBILE PHONE STYLING */
+@media only screen and (max-width: 600px){
+    body{
+        position: absolute;
+    }
+    .patienthelper{
+        margin-left: -0rem;
+        margin-top: 46rem;
+    }
+}

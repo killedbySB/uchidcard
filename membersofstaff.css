@@ -1,0 +1,105 @@
+/* STYLING FOR MEMBERS OF STAFF ID CARD */
+body{
+    background-color: black;
+}
+.staffs{
+    align-items: center;
+    text-align: center;
+    width: 1100px;
+    height: 683.56px;
+    top: 4498px;
+    left: -8620px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: white;
+    margin-top: 12rem;
+    margin-left: 27rem;
+    
+}
+.overlay img{
+    width: 360px;
+    width: 360px;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: -15rem;
+}
+.images{
+    border-bottom: 1px solid green;
+    width: 95%;
+    margin-left: 1.3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 2rem
+}
+.images .greenlogo img{
+    margin-top: 2rem
+}
+
+.staff-info h1{
+    font-size: 2.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 22rem;
+}
+.staff-info p{
+    font-size: 2.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 21rem;
+    margin-top: -1.4rem;
+}
+.staff-info button{
+    background-color: green;
+    color: #ffffff;
+    border: 1px solid green;
+    padding: 1rem;
+    font-size: 2.3em;
+    width: 25%;
+    margin-left: -27rem;
+    position: absolute;
+}
+.staff-info img{
+    margin-top: 2rem;
+    margin-left: -19rem;
+    position: absolute;
+}
+ .staff-image img{
+    margin-left: 14rem;
+    margin-top: -15.3rem;
+    border: 5px solid green;
+    border-radius: 18px;
+    position: absolute;
+}
+.staff-image h3{
+    position: absolute;
+    font-size: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 54rem;
+    margin-top: 8rem;
+}
+
+/* MOBILE PHONE STYLING */
+@media only screen and (max-width: 600px){
+    
+    body{
+        position: absolute;
+    }
+    .staffs{
+        margin-left: -0rem;
+        margin-top: 46rem;
+    }
+    .staff-info button{
+        margin-left: -26rem;
+        width: 44%;
+    }
+}
+
+/* TABLET VERSION STYLING */
+@media (min-width: 600px) and (max-width:1026px){
+    .staffs{
+        margin-top: 22rem;
+        justify-content: center;
+    }
+    .staff-info button{
+        width: 60%;
+        margin-left: -25rem;
+    }
+}

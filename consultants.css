@@ -1,0 +1,93 @@
+/* STYLING FOR CONSULTANTS ID CARD*/
+body{
+    background-color: black;
+}    
+.consultants{
+    align-items: center;
+    text-align: center;
+    width: 1100px;
+    height: 683.56px;
+    top: 4498px;
+    left: -8620px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: white;
+    margin-top: 12rem;
+    margin-left: 27rem;
+
+}
+.overlay img{
+    width: 360px;
+    width: 360px;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: -15rem;
+}
+.images4{
+    border-bottom: 1px solid red;
+    width: 95%;
+    margin-left: 1.3rem;
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 1rem
+}
+.images4 .redlogo img{
+    width: 180px;
+    height: 160px;
+    margin-top: 2rem;
+}
+.consultants-info h1{
+    font-size: 2.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 22rem;
+}
+.consultants-info p{
+    font-size: 2.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 21rem;
+    margin-top: -1.4rem;
+}
+.consultants-info button{
+    background-color: red;
+    color: #ffffff;
+    border: 1px solid red;
+    padding: 1rem;
+    font-size: 2.3em;
+    width: 25%;
+    margin-left: -27rem;
+    position: absolute;
+}
+ .consultants-info img{
+    margin-top: 2rem;
+    margin-left: -19rem;
+    position: absolute;
+}  
+ .consultants-info .consultants-image img{
+    margin-left: 14rem;
+    margin-top: -15.3rem;
+    border: 5px solid red;
+    border-radius: 18px;
+    position: absolute;
+}  
+.consultants-image h3{
+    position: absolute;
+    font-size: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 54rem;
+    margin-top: 8rem;
+}
+
+/* MOBILE PHONE STYLING */
+@media only screen and (max-width: 600px){
+    body{
+        position: absolute;
+    }
+    .consultants{
+        margin-left: -0rem;
+        margin-top: 46rem;
+    }
+    .consultants-info button{
+        margin-left: -26rem;
+        width: 44%;
+    }
+}
